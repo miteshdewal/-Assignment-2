@@ -1,0 +1,7 @@
+import math
+
+base = float(input("Enter base: "))
+height = float(input("Enter height: "))
+
+hyp = math.sqrt(base**2 + height**2)
+print("Hypotenuse =", hyp)
